@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java.prof.practice.iml" filepath="$PROJECT_DIR$/java.prof.practice.iml" />
-      <module fileurl="file://$USER_HOME$/IdeaProjects/untitled/src/com/sash/co/ua/pku/prof/l3/jaxb/jaxb.iml" filepath="$USER_HOME$/IdeaProjects/untitled/src/com/sash/co/ua/pku/prof/l3/jaxb/jaxb.iml" />
       <module fileurl="file://$PROJECT_DIR$/sash/sash.iml" filepath="$PROJECT_DIR$/sash/sash.iml" />
     </modules>
   </component>

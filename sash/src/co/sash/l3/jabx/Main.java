@@ -7,6 +7,7 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.net.URL;
 import java.util.Date;
 
 public class Main {
@@ -43,6 +44,7 @@ public class Main {
             jaxbContext = JAXBContext.newInstance(Trains.class);
             marshaller = jaxbContext.createMarshaller();
             unmarshaller = jaxbContext.createUnmarshaller();
+
             trains = (Trains)  unmarshaller.unmarshal(file);
             System.out.println(trains);
         } catch (JAXBException e) {
